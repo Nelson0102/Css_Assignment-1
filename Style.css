@@ -1,0 +1,65 @@
+     /* General Styles */
+     body {
+        background-image: url('album-covers-band-black-background-bohemian-rhapsody-wallpaper-preview.jpg');
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f5f5f5;
+        text-align: center;
+        
+    }
+    /* Header Styles */
+    header {
+        background-image: url('album-covers-band-black-background-bohemian-rhapsody-wallpaper-preview.jpg'); /* set the background image */
+        background-size: cover; /* cover the entire element */
+        background-repeat: no-repeat; /* don't repeat the image */
+        background-position: center; /* center the image */
+        font-family: Arial, sans-serif;
+        color: rgb(255, 255, 255);
+        background-color: #f5f5f5;
+        text-align: center;
+    }
+    
+    
+    header h1, h2 {
+        margin: 0;
+    }
+    
+    /* Section Styles */
+    section {
+        background-color: #fff;
+        padding: 20px;
+        margin: 20px 0;
+    }
+    
+    /* Fonts */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+    
+    /* Text Styles */
+    h1, h2 {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+    }
+    
+    h3 {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+    p {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+    }
+    
+    /* Style for yelling text */
+    .yelling {
+        font-size: 1.5em;
+        text-transform: uppercase;
+    }
+    
+    /* Style for sad text */
+    .sad {
+        color: #333;
+        font-style: italic;
+    }
+</style>
